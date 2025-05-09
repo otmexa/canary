@@ -2004,9 +2004,9 @@ void PlayerWheel::resetPlayerData() {
 }
 
 void PlayerWheel::initializePlayerData() {
-	if (m_player.client && m_player.client->oldProtocol) {
+/* 	if (m_player.client && m_player.client->oldProtocol) {
 		return;
-	}
+	} */
 
 	loadPlayerBonusData();
 }
