@@ -27,6 +27,7 @@ class PlayerFunctions {
 	static int luaPlayerResetCharmsMonsters(lua_State* L);
 	static int luaPlayeraddCharmPoints(lua_State* L);
 	static int luaPlayerIsPlayer(lua_State* L);
+	static int luaPlayerCastSpell(lua_State* L);
 
 	static int luaPlayerGetGuid(lua_State* L);
 	static int luaPlayerGetIp(lua_State* L);
