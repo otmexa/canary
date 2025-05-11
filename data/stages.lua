@@ -1,4 +1,4 @@
--- Minlevel and multiplier are MANDATORY
+-- Minlevel and multiplier are MANDATORY TEST FORK
 -- Maxlevel is OPTIONAL, but is considered infinite by default
 -- Create a stage with minlevel 1 and no maxlevel to disable stages
 experienceStages = {
